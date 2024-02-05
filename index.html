@@ -1,0 +1,1012 @@
+<!--
+
+testing
+
+
+-->
+
+
+<!DOCTYPE html>
+
+<html
+  lang="en"
+  class="light-style layout-wide"
+  dir="ltr"
+  data-theme="theme-default"
+  data-assets-path="https://www.kadboard.com/assets/"
+  data-template="horizontal-menu-template-no-customizer">
+  <head>
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0" />
+    <title>MAJLIS PERKAHWINAN AQIL
+&
+BALQIS</title>
+    <meta name="description" content="" />
+
+    <!-- Favicon -->
+<link rel="icon" type="image/x-icon" href="https://www.kadboard.com/assets/kad/kadboard.png" />
+
+<!-- Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&ampdisplay=swap" rel="stylesheet" />
+<link href="https://fonts.googleapis.com/css2?family=Sen:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+<!-- Icons -->
+<!-- <link rel="stylesheet" href="https://www.kadboard.com/assets/vendor/fonts/fontawesome.css" /> -->
+<link rel="stylesheet" href="https://www.kadboard.com/assets/vendor/fonts/tabler-icons.css" />
+<!-- <link rel="stylesheet" href="https://www.kadboard.com/assets/vendor/fonts/flag-icons.css" /> -->
+
+<!-- Core CSS -->
+<link rel="stylesheet" href="https://www.kadboard.com/assets/vendor/css/rtl/core.css" class="template-customizer-core-css" />
+<!-- <link rel="stylesheet" href="https://www.kadboard.com/assets/vendor/css/rtl/theme-default.css" class="template-customizer-theme-css" /> -->
+<!-- <link rel="stylesheet" href="https://www.kadboard.com/assets/css/demo.css" /> -->
+
+<!-- Vendors CSS -->
+<!-- <link rel="stylesheet" href="https://www.kadboard.com/assets/vendor/libs/node-waves/node-waves.css" />
+<link rel="stylesheet" href="https://www.kadboard.com/assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.css" />
+<link rel="stylesheet" href="https://www.kadboard.com/assets/vendor/libs/typeahead-js/typeahead.css" /> -->
+<!-- Page CSS -->
+
+<link href="https://fonts.googleapis.com/css2?family=Parisienne&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://www.kadboard.com/assets/third-party/snow/snow.css" />
+<link rel="stylesheet" type="text/css" href="https://www.kadboard.com/assets/third-party/retro-notify/css/retronotify.css">
+
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-MJ028CFBL2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-MJ028CFBL2');
+</script>
+
+
+<style media="screen">
+
+html {
+  /* background-color: #ebebeb; */
+  background-color: #fff;
+}
+
+body, html {
+  overflow-x: hidden;
+}
+
+.main{
+  max-width: 480px;
+  width: 100%;
+  margin: 0 auto;
+  background-color: #fff;
+  box-shadow: 6px 0 4px -4px #c5c5c5, -6px 0 4px -4px #c5c5c5;
+  -moz-box-shadow: 6px 0 4px -4px #c5c5c5, -6px 0 4px -4px #c5c5c5;
+  -webkit-box-shadow: 6px 0 4px -4px #c5c5c5, -6px 0 4px -4px #c5c5c5;
+}
+
+.start{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 480px;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  background-color: black;
+  z-index: 99;
+  background-image: url(https://www.kadboard.com/design/KBD0017.webp
+);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: 6px 0 4px -4px #c5c5c5, -6px 0 4px -4px #c5c5c5;
+  -moz-box-shadow: 6px 0 4px -4px #c5c5c5, -6px 0 4px -4px #c5c5c5;
+  -webkit-box-shadow: 6px 0 4px -4px #c5c5c5, -6px 0 4px -4px #c5c5c5;
+}
+
+.inside {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 480px;
+  width: 100%;
+  height: auto;
+  text-align: center;
+  z-index: 999;
+}
+
+.hidden{
+  display: none;
+}
+
+nav{
+  max-width: 480px;
+  position: fixed;
+  bottom: 0;
+  background-color: white;
+  padding: 12px;
+  width: 100%;
+  -webkit-box-shadow: 0px -4px 3px rgba(50, 50, 50, 0.1);
+  -moz-box-shadow: 0px -4px 3px rgba(50, 50, 50, 0.1);
+  box-shadow: 0px -4px 3px rgba(50, 50, 50, 0.1);
+}
+
+.menu-box{
+  display: flex;
+  justify-content: space-around;
+}
+
+.nav-item{
+  align-items: center;
+  text-decoration: none;
+  /* color: white; */
+  padding: 5px 16px;
+  border-radius: 50px;
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}
+
+.nav-font{
+  font-size: 10px;
+}
+
+.introduction {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -55%);
+  /* width: 50%; */
+  max-width: 480px;
+  width: 100%;
+  height: auto;
+  /* text-align: center; */
+}
+
+.bg-image{
+  background-image: url(https://www.kadboard.com/design/KBD0017.webp
+);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height:92vh;
+}
+
+.wedding-font{
+  /* font-family: 'Parisienne', cursive; */
+  font-family: 'Alex Brush', cursive;
+}
+
+.wedding-title{
+  font-size: 60px;
+  margin-bottom: 0px!important;
+  line-height: 1.10!important;
+}
+
+.show-box{
+  position: fixed;
+  bottom: 78px;
+  max-width: 480px;
+  width: 100%;
+  border-radius: 20px 20px 0px 0px;
+  box-shadow: 0 15px 25px rgba(129, 124, 124, 0.8);
+  backdrop-filter: blur(8px);
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.hidden-box{
+  display: none;
+}
+
+.bottom-pad{
+  padding-bottom: 78px;
+}
+
+.container {
+  color: #333;
+  margin: 0 auto;
+  text-align: center;
+}
+
+li {
+  display: inline-block;
+  font-size: 15px;
+  list-style-type: none;
+  padding: 1em;
+  /* text-transform: uppercase; */
+}
+
+li span {
+  display: block;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.scrollable-div {
+  width: 100%;
+  height: 300px;
+  overflow: auto;
+  padding: 10px;
+}
+
+.snow {
+  background: #f7c8a6!important;
+}
+
+</style>
+
+<!-- Helpers -->
+<!-- <script src="https://www.kadboard.com/assets/vendor/js/helpers.js"></script>
+<script src="https://www.kadboard.com/assets/js/config.js"></script> -->
+
+    <style media="screen">
+      .title-color{
+        color: #5d596c!important;
+      }
+
+      .sepia { filter: invert(1%) sepia(1%) saturate(1%) hue-rotate(1deg) brightness(1000%) contrast(80%); }
+    </style>
+  </head>
+
+  <body>
+
+          <div id="snow-fall" class="hidden">
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+      </div>
+    
+
+    <div id="start" class="start">
+      <div class="inside">
+        <h5 class="mb-4 title-color">MAJLIS PERKAHWINAN</h5>
+                  <h6 class="wedding-font wedding-title title-color">Aqil<br />
+&<br />
+Balqis</h6>
+                <small class="title-color">
+          <i>*Kad undangan ini mengandungi lagu.</i>
+        </small>
+        <br>
+        <button type="button" name="button" class="btn btn-dark mt-4" id="opening">BUKA</button>
+      </div>
+    </div>
+
+    <div class="main hidden">
+
+      <div class="bg-image">
+        <div class="introduction text-center">
+          <h5 class="mb-4 title-color">MAJLIS PERKAHWINAN</h5>
+          <img class="" src="https://www.kadboard.com/assets/kad/top-leaf.png" width="50%" style="padding: 15px;">
+                      <h6 class="wedding-font wedding-title title-color">Aqil<br />
+&<br />
+Balqis</h6>
+                    <img class="" src="https://www.kadboard.com/assets/kad/bot-leaf.png" width="50%" style="padding: 15px;">
+          <h6 class="title-color">SABTU</h6>
+          <h6 class="title-color">09.03.2024</h6>
+                      <h6 class="title-color">28 SYAABAN 1445H</h6>
+                  </div>
+      </div>
+
+      <div class="row">
+
+        <div class="col-12 text-center" style="padding-top: 60px;">
+          <h4>
+            <strong>
+              بِسْمِ اللهِ الرَّحْمٰنِ الرَّحِيْمِ            </strong>
+          </h4>
+        </div>
+
+        <div class="col-12 mt-4 text-center">
+          <h6>Assalamualaikum Warahmatullahih Wabarakatuh<br />
+  Dengan izin Allah S.W.T kami,</h6>
+        </div>
+
+        <div class="col-12 mt-4 text-center">
+          <p style="font-size: 20px; font-weight: bold;">
+                          Rosli Bin Badri Shah<br />
+&<br />
+Rahjimah Binti Jenal                      </p>
+        </div>
+
+        <div class="col-12 mt-4 text-center">
+          <h6>
+            Dengan segala hormatnya mempersilakan<br />
+Tuan/Puan/Dato'/Datin/Encik/Cik<br />
+ke majlis perkahwinan anakanda kami          </h6>
+        </div>
+
+        <div class="col-12 mt-4 text-center">
+          <p style="font-size: 20px; font-weight: bold;">
+                          Aqil Akmal Bin Rosli<br />
+&<br />
+Nur Quratul Balqis Binti Shahful Azman                      </p>
+        </div>
+
+        <div class="col-12 mt-4 text-center">
+          <h1 class="wedding-font">
+            <strong>Tarikh</strong>
+          </h1>
+          <p>
+            Sabtu, 09 March 2024                          <br>
+              bersamaan 28 Syaaban 1445H                      </p>
+        </div>
+
+        <div class="col-12 mt-4 text-center">
+          <h1 class="wedding-font">
+            <strong>Tempat</strong>
+          </h1>
+          <p>
+            Asiana Grand Hall Setapak<br />
+Kompleks Yayasan Wangsa Perdana, Jalan Taman Ibu Kota, Taman Ibu Kota, 53100 Kuala Lumpur          </p>
+        </div>
+
+        <div class="col-12 mt-4 text-center">
+          <h1 class="wedding-font">
+            <strong>Atur Cara Majlis</strong>
+          </h1>
+          <p>
+            11:00 AM Ketibaan Tetamu<br />
+12:30 PM Ketibaan Pengantin<br />
+01:00 PM Salam Restu<br />
+01:30 PM Makan Beradap<br />
+02:00 PM Sesi Fotografi<br />
+04:00 PM Majlis Bersurai          </p>
+        </div>
+
+        
+                  <div class="col-12 mt-4 text-center">
+            <h1 class="wedding-font">
+              <strong>Menanti Hari</strong>
+            </h1>
+            <ul style="padding-left: 0;">
+              <li><span id="days"></span>Hari</li>
+              <li><span id="hours"></span>Jam</li>
+              <li><span id="minutes"></span>Minit</li>
+              <li><span id="seconds"></span>Saat</li>
+            </ul>
+          </div>
+        
+                  <div class="col-12 mt-4 text-center">
+            <h1 class="wedding-font">
+              <strong>Ucapan</strong>
+            </h1>
+
+            <button type="button" name="button" class="btn btn-dark mb-2 toggle-box" data-target="box-6">
+              Tambah Ucapan
+            </button>
+
+            <div class="scrollable-div" id="commentlist">
+
+            </div>
+
+          </div>
+        
+		  <p class="text-center mt-2"> <strong>Ingin kad seperti ini?</strong> <br> Dapatkan sekarang di <a href="https://www.kadboard.com/" target="_blank">kadboard.com</a> </p>
+
+      </div>
+
+      <div class="bottom-pad"></div>
+
+      <div id="box-1" class="card show-box hidden-box">
+        <div class="card-body">
+          <div class="row">
+            <div class="col-12 text-center">
+              <h5>HADIR KE MAJLIS ?</h5>
+            </div>
+            <div class="col-12 text-center">
+              <div class="btn-group" role="group" aria-label="Basic example">
+                <button type="button" class="btn btn-dark waves-effect waves-light pilih" data-id="hadir">
+                  <i class="tf-icons ti ti-square-rounded-check"></i>
+                </button>
+                <!-- <button type="button" class="btn btn-secondary waves-effect waves-light">INGATKAN SAYA</button> -->
+                <button type="button" class="btn btn-dark waves-effect waves-light pilih" data-id="tidak">
+                  <i class="tf-icons ti ti-square-rounded-x"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="box-1-1" class="card show-box hidden-box">
+        <div class="card-body">
+          <div class="row">
+            <div class="col-12 text-center">
+              <form id="rsvp-form" action="https://www.kadboard.com/rsvp" method="post">
+                <input type="text" class="form-control mb-2" name="GuestName" placeholder="Nama *">
+                <input type="text" class="form-control mb-2" name="GuestNumber" placeholder="Nombor Telefon * Cth: 0123456789">
+                <select class="form-control mb-2" id="kehadiran" name="GuestLimit">
+                  <option value="">Pilih Jumlah Kehadiran</option>
+                                      <option value="1">1 Orang</option>
+                                      <option value="2">2 Orang</option>
+                                      <option value="3">3 Orang</option>
+                                      <option value="4">4 Orang</option>
+                                      <option value="5">5 Orang</option>
+                                      <option value="6">6 Orang</option>
+                                      <option value="7">7 Orang</option>
+                                      <option value="8">8 Orang</option>
+                                      <option value="9">9 Orang</option>
+                                      <option value="10">10 Orang</option>
+                                  </select>
+                <button type="submit" name="button" class="btn btn-dark" id="sahkan">Hantar</button>
+                <button type="button" name="button" class="btn btn-dark" id="batal">Batal</button>
+                <input type="hidden" name="flag" id="flag" value="hadir">
+                <input type="hidden" name="InvitationId" value="R6q">
+                <input type="hidden" class="txt_csrfname" name="csrf_test_name" value="50648e787ada091a7cc649282c7f2d7b">
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="box-2" class="card show-box hidden-box">
+        <div class="card-body">
+          <div class="row">
+            <div class="col-12 text-center">
+              <h5>HUBUNGI</h5>
+            </div>
+            <div class="col-12 text-center">
+
+              
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="box-3" class="card show-box hidden-box">
+        <div class="card-body">
+          <div class="row">
+            <div class="col-12 text-center">
+              <h5>LOKASI</h5>
+            </div>
+            <div class="col-12 text-center">
+              <a href="https://www.google.com/maps?q=3.214172688616805, 101.71311059554309" target="_blank">
+                <div class="btn-group mb-2" role="group" aria-label="Basic example">
+                  <button type="button" class="btn btn-dark waves-effect waves-light">
+                    <i class="tf-icons ti ti-brand-google-maps"></i>
+                  </button>
+                  <button type="button" class="btn btn-dark waves-effect waves-light">BUKA DI APLIKASI MAPS</button>
+                </div>
+              </a>
+              <a href="https://www.waze.com/ul?ll=3.214172688616805, 101.71311059554309&navigate=yes" target="_blank">
+                <div class="btn-group" role="group" aria-label="Basic example">
+                  <button type="button" class="btn btn-dark waves-effect waves-light">
+                    <i class="tf-icons ti ti-brand-waze"></i>
+                  </button>
+                  <button type="button" class="btn btn-dark waves-effect waves-light">BUKA DI APLIKASI WAZE</button>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="box-4" class="card show-box hidden-box">
+        <div class="card-body">
+          <div class="row">
+            <div class="col-12 text-center">
+              <h5>KALENDAR</h5>
+            </div>
+            <div class="col-12 text-center">
+              <div class="col-12 text-center">
+                <a target="_blank" href="https://calndr.link/d/event/?service=google&start=2024-03-09 11:00:00&end=2024-03-09 16:00:00&title=MAJLIS PERKAHWINAN AQIL
+&
+BALQIS&timezone=Asia/Kuala_Lumpur">
+                  <div class="btn-group mb-2" role="group" aria-label="Basic example">
+                    <button type="button" class="btn btn-dark waves-effect waves-light">
+                      <i class="tf-icons ti ti-brand-google"></i>
+                    </button>
+                    <button type="button" class="btn btn-dark waves-effect waves-light">TAMBAH DI GOOGLE CALENDAR</button>
+                  </div>
+                </a>
+                <a target="_blank" href="https://calndr.link/d/event/?service=apple&start=2024-03-09 11:00:00&end=2024-03-09 16:00:00&title=MAJLIS PERKAHWINAN AQIL
+&
+BALQIS&timezone=Asia/Kuala_Lumpur">
+                  <div class="btn-group" role="group" aria-label="Basic example">
+                    <button type="button" class="btn btn-dark waves-effect waves-light">
+                      <i class="tf-icons ti ti-brand-apple"></i>
+                    </button>
+                    <button type="button" class="btn btn-dark waves-effect waves-light">TAMBAH DI APPLE CALENDAR</button>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="box-5" class="card show-box hidden-box">
+        <div class="card-body">
+          <div class="row">
+            <div class="col-12 text-center">
+                              <iframe id="youtubeIframe" width="100%" height="auto" style="border-radius: 10px;" src="https://www.youtube.com/embed/Nnd9UT8sgvU?si=UmZdpBfRHdf4rKWU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                          </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="box-6" class="card show-box hidden-box">
+        <div class="card-body">
+          <div class="row">
+            <div class="col-12 text-center">
+              <h5>UCAPAN</h5>
+            </div>
+            <div class="col-12 text-center">
+              <form id="comment-form" action="https://www.kadboard.com/comment" method="post">
+                <div>
+                  <input type="text" class="form-control mb-2" name="CommentName" placeholder="Nama Anda *">
+                  <textarea class="form-control mb-2" name="Comment" placeholder="Ucapan Anda *"></textarea>
+                  <div class="d-grid gap-2">
+                    <button type="submit" name="button" class="btn btn-dark">Hantar Sekarang</button>
+                  </div>
+                </div>
+                <input type="hidden" name="InvitationId" value="R6q">
+                <input type="hidden" class="txt_csrfname" name="csrf_test_name" value="50648e787ada091a7cc649282c7f2d7b">
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <nav>
+        <div class="menu-box">
+          <div class="nav-item text-center toggle-box" data-target="box-1">
+             <i class="tf-icons ti ti-armchair"></i><br>
+            <span class="nav-font">RSVP</span>
+          </div>
+
+          <div class="nav-item text-center toggle-box" data-target="box-4">
+            <i class="tf-icons ti ti-calendar-event"></i><br>
+            <span class="nav-font">KALENDAR</span>
+          </div>
+
+                      <div class="nav-item text-center toggle-box" data-target="box-5" id="playButton">
+              <i class="tf-icons ti ti-player-play"></i><br>
+              <span class="nav-font">LAGU</span>
+            </div>
+          
+          <div class="nav-item text-center toggle-box" data-target="box-3">
+            <i class="tf-icons ti ti-map-pin"></i><br>
+            <span class="nav-font">LOKASI</span>
+          </div>
+
+          <div class="nav-item text-center toggle-box" data-target="box-2">
+            <i class="tf-icons ti ti-phone"></i><br>
+            <span class="nav-font">HUBUNGI</span>
+          </div>
+
+        </div>
+      </nav>
+
+    </div>
+
+
+
+  </body>
+
+  <script src="https://www.kadboard.com/assets/vendor/libs/jquery/jquery.js"></script>
+<!-- <script src="https://www.kadboard.com/assets/vendor/libs/popper/popper.js"></script> -->
+<!-- <script src="https://www.kadboard.com/assets/vendor/js/bootstrap.js"></script> -->
+<!-- <script src="https://www.kadboard.com/assets/vendor/libs/node-waves/node-waves.js"></script>
+<script src="https://www.kadboard.com/assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.js"></script>
+<script src="https://www.kadboard.com/assets/vendor/libs/hammer/hammer.js"></script>
+<script src="https://www.kadboard.com/assets/vendor/libs/i18n/i18n.js"></script>
+<script src="https://www.kadboard.com/assets/vendor/libs/typeahead-js/typeahead.js"></script> -->
+<!-- <script src="https://www.kadboard.com/assets/vendor/js/menu.js"></script> -->
+
+<!-- Main JS -->
+<!-- <script src="https://www.kadboard.com/assets/js/main.js"></script> -->
+<!-- Page JS -->
+
+<script src="https://www.kadboard.com/assets/third-party/retro-notify/js/retronotify.js"></script>
+
+<!-- <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script> -->
+
+  <script type="text/javascript">
+    // feather.replace();
+
+    $('#opening').on('click', function(){
+      $('#start').animate({opacity: 0}, 1000, function(){
+          $(this).addClass('hidden');
+      });
+
+      $('.main').animate({opacity: 1}, 1000)
+          .removeClass('hidden');
+
+      $('#snow-fall')
+          .css({ height: 0, display: 'block' })
+          .animate({ height: '100%' }, 1000)
+          .removeClass('hidden');
+
+          play();
+    
+    });
+
+    function play(){
+      var iframe = document.getElementById('youtubeIframe');
+      var src = iframe.src;
+
+      // Check if the video is already playing
+      if (src.includes('autoplay=1')) {
+        // Pause the video
+        iframe.contentWindow.postMessage('{"event":"command","func":"pauseVideo","args":""}', '*');
+      } else {
+        // Play the video
+        iframe.src = src + '&autoplay=1&loop=1';
+      }
+    }
+
+    $(document).on('click', '.toggle-box', function (event) {
+      event.stopPropagation();
+      var targetBox = $(this).data('target');
+      $('.hidden-box').not('#' + targetBox).slideUp();
+      $('#' + targetBox).slideToggle();
+    });
+
+    $(document).on('click', function () {
+      $('.hidden-box').slideUp();
+    });
+
+    $('.hidden-box').on('click', function (event) {
+      event.stopPropagation();
+    });
+
+    $('.pilih').on('click', function () {
+      var id = $(this).data('id');
+      $('#flag').val(id);
+      if (id == 'hadir') {
+        $('#kehadiran').show();
+      }else {
+        $('#kehadiran').hide();
+      }
+      $('#box-1-1').slideToggle();
+    });
+
+    $('#batal').on('click', function () {
+      $('#box-1-1').slideToggle();
+    });
+
+    const second = 1000,
+      minute = second * 60,
+      hour = minute * 60,
+      day = hour * 24;
+
+      let countDown = new Date('Mar 09, 2024 11:00:00').getTime(),
+      x = setInterval(function() {
+
+      let now = new Date().getTime(),
+      distance = countDown - now;
+
+      document.getElementById('days').innerText = Math.floor(distance / (day)),
+      document.getElementById('hours').innerText = Math.floor((distance % (day)) / (hour)),
+      document.getElementById('minutes').innerText = Math.floor((distance % (hour)) / (minute)),
+      document.getElementById('seconds').innerText = Math.floor((distance % (minute)) / second);
+
+      //do something later when date is reached
+      //if (distance < 0) {
+      //  clearInterval(x);
+      //  'IT'S MY BIRTHDAY!;
+      //}
+
+    }, second);
+
+    $("#rsvp-form").unbind('submit').bind('submit', function() {
+      var form = $(this);
+      $.ajax({
+        url: form.attr('action'),
+        type: form.attr('method'),
+        data: form.serialize(),
+        dataType: 'json',
+        success:function(data)
+        {
+          $('.txt_csrfname').val(data.token);
+          if (data.status == true)
+          {
+            load_rsvp();
+            $('#box-1').slideToggle();
+            $('#box-1-1').slideToggle();
+            $("#rsvp-form")[0].reset()
+            // notification('black','slideBottomRight','Message',data.message,10000);
+          }else{
+            // notification('black','slideBottomRight','Message',data.message,10000);
+          }
+        },
+        error: function(xhr, status, error) {
+          // notification('black','slideBottomRight','Message','Something went wrong. Please try again later.',10000);
+        },
+      });
+      return false;
+    });
+
+    $("#comment-form").unbind('submit').bind('submit', function() {
+      var form = $(this);
+      $.ajax({
+        url: form.attr('action'),
+        type: form.attr('method'),
+        data: form.serialize(),
+        dataType: 'json',
+        success:function(data)
+        {
+          $('.txt_csrfname').val(data.token);
+          if (data.status == true)
+          {
+            load_comment();
+            $('#box-6').slideToggle();
+            $("#comment-form")[0].reset()
+            // notification('black','slideBottomRight','Message',data.message,10000);
+          }else{
+            // notification('black','slideBottomRight','Message',data.message,10000);
+          }
+        },
+        error: function(xhr, status, error) {
+          // notification('black','slideBottomRight','Message','Something went wrong. Please try again later.',10000);
+        },
+      });
+      return false;
+    });
+
+    load_comment();
+
+    function load_comment(){
+      var csrfName   = $('.txt_csrfname').attr('name');
+      var csrfHash   = $('.txt_csrfname').val();
+
+      var id = "R6q";
+
+      $.ajax({
+        url		   : "https://www.kadboard.com/load",
+        type		 : "POST",
+        dataType : "JSON",
+        data		 :{id:id, [csrfName]: csrfHash},
+        success	 :function(data)  {
+          $('.txt_csrfname').val(data.token);
+          $('#commentlist').html(data.result);
+        },
+        error: function(xhr, status, error) {
+          // getToken();
+        }
+      });
+    }
+
+    load_rsvp();
+
+    function load_rsvp(){
+      var csrfName   = $('.txt_csrfname').attr('name');
+      var csrfHash   = $('.txt_csrfname').val();
+
+      var id = "R6q";
+
+      $.ajax({
+        url		   : "https://www.kadboard.com/attend",
+        type		 : "POST",
+        dataType : "JSON",
+        data		 :{id:id, [csrfName]: csrfHash},
+        success	 :function(data)  {
+          $('.txt_csrfname').val(data.token);
+          $('#attend').html(data.attend);
+          $('#notattend').html(data.notattend);
+        },
+        error: function(xhr, status, error) {
+          // getToken();
+        }
+      });
+    }
+
+    function notification(color,animate,header,message,delay){
+      new RetroNotify({
+        style: color,
+        animate: animate,
+        contentHeader: header,
+        contentText: message,
+        closeDelay: delay
+      });
+    }
+
+  </script>
+
+</html>
